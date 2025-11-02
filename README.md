@@ -18,8 +18,7 @@ FILES:
 
 HOW TO RUN:  
     1. Clone the repository
-    git clone https://github.com/your-username/anomaly-detection-project.git
-    cd anomaly-detection-project
+    git clone https://github.com/Staynerr03/CIS505-AlgorithmAnalysis
 
     2. Install required packages
     pip install numpy scikit-learn networkx torch
