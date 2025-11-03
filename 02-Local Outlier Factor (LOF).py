@@ -20,4 +20,8 @@ lof_scores = -lof.negative_outlier_factor_
 rank = np.argsort(-lof_scores)  
 
 top_k = 10
+print("\n")
+print("\n")
+print("02-Local Outlier Factor (LOF)")
 print("Top-10 anomalies:", rank[:top_k])
+print("\n")

@@ -28,4 +28,8 @@ labels = ocsvm.predict(X_test_s)
 anom_rank = np.argsort(scores)
 top_k = 10
 top_anomalies_idx = anom_rank[:top_k]
-print("Top anomalous points:", top_anomalies_idx)
+print("\n")
+print("\n")
+print("01-Support Vector Machine for Novelty Detection")
+print("Top anomalies:", top_anomalies_idx)
+print("\n")

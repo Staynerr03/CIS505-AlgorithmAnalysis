@@ -80,4 +80,7 @@ time_idx = np.arange(win-1, win-1 + len(err))
 # Choose threshold: percentile or mean+K*std
 thr = np.percentile(err, 95)  
 anom_idx = time_idx[err >= thr]
+print("\n")
+print("03-Time-Series Deep Learning (LSTM Autoencoder for Reconstruction Anomaly Score)")
 print("Detected anomalous time indices:", anom_idx[:50])
+print("\n")

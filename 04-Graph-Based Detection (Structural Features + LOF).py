@@ -57,6 +57,10 @@ lof_score = -lof.negative_outlier_factor_
 rank = np.argsort(-lof_score)
 
 top_k = 10
+print("\n")
+print("04-Graph-Based Detection (Structural Features + LOF)")
 print("Top anomalous nodes:")
 for i in rank[:top_k]:
     print(nodes[i], " | LOF score:", lof_score[i])
+    
+print("\n")
